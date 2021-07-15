@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+.body {
+  background-color: black;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header" "img img img" "footer footer footer";
+}
+
+.bg-color {
+  background-color: black;
+}
+
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+
+.header .header__menu {
+  font-family: "Creepster", cursive;
+  font-size: x-large;
+  text-align: center;
+}
+
+.img {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: img;
+}
+
+.img .img__background {
+  background: url(media/pexels-francesco-lick-5908888.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+.footer .logos__redes {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  right: 30px;
+  bottom: 30px;
+}
+
+#posicion {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imagenesropa {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ScaleRopa1:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.imgproductos .imagenes__productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.consulta {
+  font-family: "Creepster", cursive;
+  font-size: large;
+}
+
+.contacto {
+  color: darkslategray;
+  font-family: "Creepster", cursive;
+  font-size: x-large;
+}
+
+#ropacenter {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+  padding: 60px;
+}
+
+#pantaloncenter {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px;
+      grid-template-columns: 250px;
+  -ms-grid-rows: 450px;
+      grid-template-rows: 450px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+}
+
+#patinetacenter {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px;
+      grid-template-columns: 250px;
+  -ms-grid-rows: 450px;
+      grid-template-rows: 450px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+  padding-left: 110px;
+}
+
+#carouselUno {
+  margin: 50px;
+}
+
+#carouselDos {
+  margin: 50px;
+}
+
+#catalogoSkate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+}
+
+.color {
+  background-color: black;
+}
+/*# sourceMappingURL=estilo.css.map */

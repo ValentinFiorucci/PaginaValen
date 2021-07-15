@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@media only screen and (min-width: 768px){
+
+}
+.body {
+    background-color: #000000;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "img img img"
+    "footer footer footer";
+}
+#menuprincipal{
+    font-family:'Creepster', cursive;
+    font-size: x-large;
+    text-align: center;
+
+}
+.bg-color{
+    background-color: black;
+}
+.header {
+    grid-area: header;
+}
+.img {
+    grid-area: img;
+}
+.footer {
+grid-area: footer;
+}
+.catalogo:hover{
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    padding: 6px 6px 6px 6px;
+    border-radius: 2px;
+    transition:  0.6s;
+}
+.productos:hover{
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    padding: 6px 6px 6px 6px;
+    border-radius: 2px;
+    transition:  0.6s;
+  
+}
+.nosotros:hover{
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    padding: 6px 6px 6px 6px;
+    border-radius: 2px;
+    transition:  0.6s;
+  
+}
+.contacto:hover{
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    padding: 6px 6px 6px 6px;
+    border-radius: 2px;
+    transition:  0.6s;
+  
+}.inicio:hover{
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    padding: 6px 6px 6px 6px;
+    border-radius: 2px;
+    transition:  0.6s;
+  
+}
+#posicion{
+    display: grid;
+    grid-template-areas: none;
+    justify-content: center;
+    
+}
+ul.horizontal {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+ul.horizontal li {
+    float:left;
+    padding: 0px 5px;
+    margin: auto;
+    display:grid;
+    background-color: black;
+}
+#background {
+    background: url(media/pexels-francesco-lick-5908888.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-areas: none;
+    justify-content: center;
+}
+.imagenesropa {
+    justify-content: center;
+}
+.ScaleRopa1:hover {
+    transform: scale(1.1,1.1);
+    transition: all 0.5s;
+}
+.temporadainv {
+    font-family: 'Roboto Mono', monospace;
+    font-size: x-large;
+    color:darkslategray;
+    text-align: center;			
+}
+#spancolor {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: smaller;	
+}
+.catalogo1 {
+    color: darkslateblue;
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+}
+#imagenesproductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.consulta { 
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+}
+.contacto {
+    color: darkslategray;
+    font-family: 'Roboto Mono', monospace;
+    font-size: x-large;
+}
+#logos-redes{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    right: 30px;
+    bottom: 30px;
+}
+#ropacenter{
+    display: grid;
+    justify-content: center;
+    margin: 40px;
+    padding: 60px;
+}
+#pantaloncenter{
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 450px;
+    justify-content: center;
+    margin: 40px;
+}
+#patinetacenter{
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 450px;
+    justify-content: center;
+    margin: 40px;
+    padding-left: 110px;
+
+}
+#carouselUno {
+    margin: 50px;
+}
+#carouselDos {
+    margin: 50px;
+
+}
+#catalogoSkate {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}

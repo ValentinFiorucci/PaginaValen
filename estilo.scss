@@ -1,0 +1,99 @@
+@import "fuente";
+@import "variable";
+@import "main";
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@media only screen and (min-width: 768px){
+}
+.body {
+    background-color: $color;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "img img img"
+    "footer footer footer";
+}
+.bg-color{
+    background-color:$color;
+}
+.header {
+    grid-area: header;
+}
+.img {
+    grid-area: img;
+    .img__background{
+        background: url(media/pexels-francesco-lick-5908888.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-areas: none;
+    justify-content: center;
+    }
+}
+.footer {
+grid-area: footer;
+}
+#posicion{
+    display: grid;
+    grid-template-areas: none;
+    justify-content: center;
+    
+}
+.imagenesropa {
+    justify-content: center;
+}
+.ScaleRopa1:hover {
+    transform: scale(1.1,1.1);
+    transition: all 0.5s;
+}
+.imgproductos{
+ .imagenes__productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+}
+.consulta { 
+    font-family: $fuente;
+    font-size: large;
+}
+.contacto {
+    font-family: $fuente;
+    font-size: x-large;
+}
+#ropacenter{
+    display: grid;
+    justify-content: center;
+    margin: 40px;
+    padding: 60px;
+}
+#pantaloncenter{
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 450px;
+    justify-content: center;
+    margin: 40px;
+}
+#patinetacenter{
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 450px;
+    justify-content: center;
+    margin: 40px;
+    padding-left: 110px;
+
+}
+#carouselUno {
+    margin: 50px;
+}
+#carouselDos {
+    margin: 50px;
+
+}
+#catalogoSkate {
+    display: flex;
+    justify-content: center;
+    margin: 50px
+}
+.color{
+    background-color:$color;
+}

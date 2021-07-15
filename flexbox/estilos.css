@@ -1,0 +1,55 @@
+/* menu - header*/
+header{
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	width: 25%;
+	position:relative;
+	font-size: 15px;
+	color: black;
+}
+
+ul li a:hover {
+	background-color: red;
+	color: white;
+	padding: 4px;
+}
+
+a {
+	text-decoration: none;
+	padding: 4px;
+	text-transform: uppercase;
+}
+
+body {
+	display: flex;
+	height: 600px;
+	flex-direction: column;
+	padding: 1em;
+}
+
+#main{
+	display: flex;
+	flex: 1;
+	margin-top: 20px;
+}
+
+article, aside{
+	background-color: pink;
+}
+
+footer{
+	background-color: grey;
+	margin:1px;
+}
+
+article, aside, footer{
+	flex:1;
+	padding: 1rem;
+	margin:1px;
+}
