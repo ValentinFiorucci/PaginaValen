@@ -2,98 +2,201 @@
 @import "variable";
 @import "main";
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-@media only screen and (min-width: 768px){
-}
+@media only screen and (min-width: 768px) {}
+
 .body {
     background-color: $color;
     display: grid;
-    grid-template-areas: 
-    "header header header"
-    "img img img"
-    "footer footer footer";
+    grid-template-areas: "header header header" "img img img" "footer footer footer";
 }
-.bg-color{
-    background-color:$color;
+
+.bg-color {
+    background-color: $color;
 }
+
 .header {
     grid-area: header;
 }
+
 .img {
     grid-area: img;
-    .img__background{
-        background: url(media/pexels-francesco-lick-5908888.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: grid;
-    grid-template-areas: none;
-    justify-content: center;
+    .img__background {
+        background: url(media/pexels-francesco-lick-5908888.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: grid;
+        grid-template-areas: none;
+        justify-content: center;
     }
 }
+
 .footer {
-grid-area: footer;
+    grid-area: footer;
 }
-#posicion{
+
+#posicion {
     display: grid;
     grid-template-areas: none;
     justify-content: center;
     
 }
+
 .imagenesropa {
+    display: flex;
     justify-content: center;
 }
+
 .ScaleRopa1:hover {
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
     transition: all 0.5s;
 }
-.imgproductos{
- .imagenes__productos {
+
+.imgproductos {
+    .imagenes__productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+#estiloRemera{
+    width: 320px;
+}
+#estiloPatineta{
+    
+    margin: 20px auto;
+    
+    padding: 0px;
+  max-width: 100%;
+  width: 80px;
+    
+}
+#estiloPantalon{
+    
+    width: 180px;
+}
+#estiloPatineta-uno{
+    
+    width: 100px;
+}
+#estiloBuzo{
+    width: 350px;
+}
+.consulta {
+    font-family: $fuente;
+    font-size: 130%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
- }
 }
-.consulta { 
-    font-family: $fuente;
-    font-size: large;
-}
-.contacto {
-    font-family: $fuente;
-    font-size: x-large;
-}
-#ropacenter{
+
+#ropacenter {
     display: grid;
     justify-content: center;
     margin: 40px;
     padding: 60px;
 }
-#pantaloncenter{
+
+#pantaloncenter {
     display: grid;
     grid-template-columns: 250px;
     grid-template-rows: 450px;
     justify-content: center;
     margin: 40px;
 }
-#patinetacenter{
+
+#patinetacenter {
     display: grid;
     grid-template-columns: 250px;
     grid-template-rows: 450px;
     justify-content: center;
     margin: 40px;
     padding-left: 110px;
-
 }
+
 #carouselUno {
     margin: 50px;
 }
+
 #carouselDos {
     margin: 50px;
-
 }
+
 #catalogoSkate {
     display: flex;
     justify-content: center;
-    margin: 50px
+    margin: 50px;
 }
-.color{
-    background-color:$color;
+
+.color {
+    background-color: $color;
+}
+
+.contacto {
+    font-family: $fuente;
+    font-size: 300%;
+    justify-content: center;
+    display: flex;
+    margin-top: 10rem;
+    color: red;
+}
+
+#formulario {
+    font-family: $fuente;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    padding-top: 5rem;
+}
+
+#formulariodos {
+    font-family: $fuente;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+#fomulariotres {
+    font-family: $fuente;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+
+#bton-not {
+    display: flex;
+    justify-content: center;
+    margin-left: 45rem;
+}
+.altura{
+    height: 100px;
+}
+.instagram{
+    height: 50px;
+}
+#accordionExample{
+    margin-top: 40px;
+    font-family: $fuente;
+
+}
+#headingOne{
+    background-color:lightgray;
+}
+#headingTwo{
+    background-color: lightgray;
+}
+#headingThree{
+    background-color: lightgray;
+}
+#headingFour{
+    background-color: lightgray;
+}
+#headingFive{
+    background-color: lightgray;
+}
+#headingSix{
+    background-color: lightgray;
+}
+.tamaño-patineta{
+    height: 300px;
 }
