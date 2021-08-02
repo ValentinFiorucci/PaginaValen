@@ -210,6 +210,18 @@
 #headingSix{
     background-color: lightgray;
 }
+#headingSeven{
+    background-color: lightgray;
+}
+#headingEigt{
+    background-color: lightgray;
+}
+#headingNine{
+    background-color: lightgray;
+}
+.talle{
+    width: 800px;
+}
 .preg-frec{
     font-family: "Creepster", cursive;
     font-size: x-large;
