@@ -162,13 +162,13 @@
      display: flex;
      justify-content: center;
      margin-top: 100px;
-     margin-right: 60px;
+     margin-right: 30px;
  }
  
  .contenedor {
      position: relative;
-     height: 500px;
-     width: 350px;
+     height: 400px;
+     width: 300px;
      margin: 50px 20px;
      float: center;
  }
@@ -177,8 +177,8 @@
      position: absolute;
      left: 0;
      transition: opacity 1.5s ease-in-out;
-     height: 550px;
-     width: 400px;
+     height: 400px;
+     width: 300px;
  }
  
  .contenedor img.top:hover {
@@ -187,8 +187,8 @@
  
  .container {
      position: relative;
-     height: 500px;
-     width: 350px;
+     height: 400px;
+     width: 300px;
      margin: 50px 20px;
      float: center;
  }
@@ -197,8 +197,8 @@
      position: absolute;
      left: 0;
      transition: opacity 1.5s ease-in-out;
-     height: 550px;
-     width: 400px;
+     height: 400px;
+     width: 300px;
  }
  
  .container img.top:hover {
@@ -208,13 +208,13 @@
  #catalogo-dos {
      display: flex;
      justify-content: center;
-     margin-right: 60px;
+     margin-right: 30px;
  }
  
  .contenedors {
      position: relative;
-     height: 500px;
-     width: 350px;
+     height: 400px;
+     width: 300px;
      margin: 50px 20px;
      float: center;
  }
@@ -223,8 +223,8 @@
      position: absolute;
      left: 0;
      transition: opacity 1.5s ease-in-out;
-     height: 550px;
-     width: 400px;
+     height: 400px;
+     width: 300px;
  }
  
  .contenedors img.top:hover {
