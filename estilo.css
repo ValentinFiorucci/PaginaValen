@@ -162,12 +162,13 @@
      display: flex;
      justify-content: center;
      margin-top: 100px;
+     margin-right: 60px;
  }
  
  .contenedor {
      position: relative;
-     height: 550px;
-     width: 400px;
+     height: 500px;
+     width: 350px;
      margin: 50px 20px;
      float: center;
  }
@@ -186,8 +187,8 @@
  
  .container {
      position: relative;
-     height: 550px;
-     width: 400px;
+     height: 500px;
+     width: 350px;
      margin: 50px 20px;
      float: center;
  }
@@ -207,12 +208,13 @@
  #catalogo-dos {
      display: flex;
      justify-content: center;
+     margin-right: 60px;
  }
  
  .contenedors {
      position: relative;
-     height: 550px;
-     width: 400px;
+     height: 500px;
+     width: 350px;
      margin: 50px 20px;
      float: center;
  }
