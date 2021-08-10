@@ -162,7 +162,7 @@
      display: flex;
      justify-content: center;
      margin-top: 100px;
-     margin-right: 30px;
+     margin-right: 20px;
  }
  
  .contenedor {
@@ -208,7 +208,7 @@
  #catalogo-dos {
      display: flex;
      justify-content: center;
-     margin-right: 30px;
+     margin-right: 20px;
  }
  
  .contenedors {
