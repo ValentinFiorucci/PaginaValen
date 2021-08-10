@@ -1,238 +1,354 @@
-@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
-.body {
-    background-color: black;
-    display: -ms-grid;
-    display: grid;
-    grid-template-areas: "header header header" "img img img" "footer footer footer";
-}
-.bg-color {
-    background-color: black;
-}
-.header .header__menu {
-    font-family: "Creepster", cursive;
-    font-size: x-large;
-    text-align: center;
-}
-.img .img__background {
-    background: url(media/pexels-francesco-lick-5908888.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: -ms-grid;
-    display: grid;
-    grid-template-areas: none;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-.footer .logos__redes {
-    position: fixed;
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    right: 10px;
-    bottom: 30px;
-}
-#posicion {
-    display: -ms-grid;
-    display: grid;
-    grid-template-areas: none;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-.imagenesropa {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-.ScaleRopa1:hover {
-    -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
-.imgproductos .imagenes__productos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-#estiloRemera{
-    width: 320px;
-}
-#estiloPatineta{
-    
-    margin: 20px auto;
-    
-    padding: 0px;
-  max-width: 100%;
-  width: 80px;
-    
-}
-#estiloPantalon{
-    
-    width: 180px;
-}
-#estiloPatineta-uno{
-    
-    width: 100px;
-}
-#estiloBuzo{
-    width: 350px;
-}
-.consulta {
-    font-family: "Creepster", cursive;
-    font-size: 130%;
-    display:flex;
-    justify-content: center;
-    margin: auto;
-}
-#ropacenter {
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 40px;
-    padding: 60px;
-}
-#pantaloncenter {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 250px;
-    grid-template-columns: 250px;
-    -ms-grid-rows: 450px;
-    grid-template-rows: 450px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 40px;
-}
-#patinetacenter {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 250px;
-    grid-template-columns: 250px;
-    -ms-grid-rows: 450px;
-    grid-template-rows: 450px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 40px;
-    padding-left: 110px;
-}
-#carouselUno {
-    margin: 50px;
-}
-#carouselDos {
-    margin: 50px;
-}
-#catalogoSkate {
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 50px;
-}
-.color {
-    background-color: black;
-}
-.contacto {
-    font-family: "Creepster", cursive;
-    font-size: 300%;
-    justify-content: center;
-    display: flex;
-    margin-top: 10rem;
-    color: red;
-}
-#formulario {
-    font-family: "Creepster", cursive;
-    font-size: 150%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-#formulariodos {
-    font-family: "Creepster", cursive;
-    font-size: 150%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-#fomulariotres {
-    font-family: "Creepster", cursive;
-    font-size: 150%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-#bton-not {
-    display: flex;
-    justify-content:center ;
-    
-}
-.altura{
-    height: 100px;
-}
-.instagram{
-    height: 50px;
-}
-#accordionExample{
-    margin-top: -11px;
-    font-family: "Creepster", cursive;
-
-}
-#headingOne{
-    background-color:lightgray;
-}
-#headingTwo{
-    background-color: lightgray;
-}
-#headingThree{
-    background-color: lightgray;
-}
-#headingFour{
-    background-color: lightgray;
-}
-#headingFive{
-    background-color: lightgray;
-}
-#headingSix{
-    background-color: lightgray;
-}
-#headingSeven{
-    background-color: lightgray;
-}
-#headingEigt{
-    background-color: lightgray;
-}
-#headingNine{
-    background-color: lightgray;
-}
-.talle{
-    width: 800px;
-}
-.preg-frec{
-    font-family: "Creepster", cursive;
-    font-size: x-large;
-    margin-top: 40px;
-    margin-left: 20px;
-    padding: 0px;
-    background-color: lightgray;
-
-}
-.color-preg{
-    background-color: lightgray;
-}
-
-/*# sourceMappingURL=estilo.css.map */
+ @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+ .body {
+     background-color: black;
+     display: -ms-grid;
+     display: grid;
+     grid-template-areas: "header header header" "img img img" "footer footer footer";
+ }
+ 
+ .bg-color {
+     background-color: black;
+ }
+ 
+ .header .header__menu {
+     font-family: "Creepster", cursive;
+     font-size: x-large;
+     text-align: center;
+ }
+ 
+ .img .img__background {
+     background: url(media/pexels-francesco-lick-5908888.png);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     display: -ms-grid;
+     display: grid;
+     grid-template-areas: none;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+ }
+ 
+ .footer .logos__redes {
+     position: fixed;
+     width: 55px;
+     height: 55px;
+     line-height: 55px;
+     right: 10px;
+     bottom: 30px;
+ }
+ 
+ #posicion {
+     display: -ms-grid;
+     display: grid;
+     grid-template-areas: none;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+ }
+ 
+ .imagenesropa {
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+ }
+ 
+ .ScaleRopa1:hover {
+     -webkit-transform: scale(1.1, 1.1);
+     transform: scale(1.1, 1.1);
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+ }
+ 
+ .imgproductos .imagenes__productos {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     margin-top: 20px;
+ }
+ 
+ #estiloRemera {
+     width: 320px;
+     margin: 50px;
+ }
+ 
+ #estiloPatineta {
+     margin: 160px;
+     padding: 0px;
+     width: 80px;
+ }
+ 
+ #estiloPantalon {
+     width: 150px;
+     margin: 125px;
+ }
+ 
+ #estiloPatineta-uno {
+     width: 100px;
+ }
+ 
+ #estiloBuzo {
+     width: 300px;
+     margin: 60px;
+ }
+ 
+ .consulta {
+     font-family: "Creepster", cursive;
+     font-size: 130%;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+ }
+ 
+ #ropacenter {
+     display: -ms-grid;
+     display: grid;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     margin: 40px;
+     padding: 60px;
+ }
+ 
+ #pantaloncenter {
+     display: -ms-grid;
+     display: grid;
+     -ms-grid-columns: 250px;
+     grid-template-columns: 250px;
+     -ms-grid-rows: 450px;
+     grid-template-rows: 450px;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     margin: 40px;
+ }
+ 
+ #patinetacenter {
+     display: -ms-grid;
+     display: grid;
+     -ms-grid-columns: 250px;
+     grid-template-columns: 250px;
+     -ms-grid-rows: 450px;
+     grid-template-rows: 450px;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     margin: 40px;
+     padding-left: 110px;
+ }
+ 
+ #nueva-Temporada {
+     font-family: "Creepster", cursive;
+     font-size: 150%;
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+ }
+ 
+ .nueva-Temp {
+     font-family: "Creepster", cursive;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ #catalogo {
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+ }
+ 
+ .contenedor {
+     position: relative;
+     height: 550px;
+     width: 400px;
+     margin: 50px 20px;
+     float: center;
+ }
+ 
+ .contenedor img {
+     position: absolute;
+     left: 0;
+     transition: opacity 1.5s ease-in-out;
+     height: 550px;
+     width: 400px;
+ }
+ 
+ .contenedor img.top:hover {
+     opacity: 0;
+ }
+ 
+ .container {
+     position: relative;
+     height: 550px;
+     width: 400px;
+     margin: 50px 20px;
+     float: center;
+ }
+ 
+ .container img {
+     position: absolute;
+     left: 0;
+     transition: opacity 1.5s ease-in-out;
+     height: 550px;
+     width: 400px;
+ }
+ 
+ .container img.top:hover {
+     opacity: 0;
+ }
+ 
+ #catalogo-dos {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .contenedors {
+     position: relative;
+     height: 550px;
+     width: 400px;
+     margin: 50px 20px;
+     float: center;
+ }
+ 
+ .contenedors img {
+     position: absolute;
+     left: 0;
+     transition: opacity 1.5s ease-in-out;
+     height: 550px;
+     width: 400px;
+ }
+ 
+ .contenedors img.top:hover {
+     opacity: 0;
+ }
+ 
+ #carouselExampleControls {}
+ 
+ .carousel-inner {
+     object-fit: cover;
+ }
+ 
+ .carousel-control-next-icon {
+     background-color: darkgrey;
+ }
+ 
+ .carousel-control-prev-icon {
+     background-color: darkgrey;
+ }
+ 
+ .color {
+     background-color: black;
+ }
+ 
+ .contacto {
+     font-family: "Creepster", cursive;
+     font-size: 300%;
+     justify-content: center;
+     display: flex;
+     margin-top: 10rem;
+     color: red;
+ }
+ 
+ #formulario {
+     font-family: "Creepster", cursive;
+     font-size: 150%;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+ }
+ 
+ #formulariodos {
+     font-family: "Creepster", cursive;
+     font-size: 150%;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+ }
+ 
+ #fomulariotres {
+     font-family: "Creepster", cursive;
+     font-size: 150%;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+ }
+ 
+ #bton-not {
+     display: flex;
+     justify-content: center;
+     font-family: "Creepster", cursive;
+ }
+ 
+ .altura {
+     height: 100px;
+ }
+ 
+ .instagram {
+     height: 50px;
+ }
+ 
+ #accordionExample {
+     margin-top: -11px;
+     font-family: "Creepster", cursive;
+ }
+ 
+ #headingOne {
+     background-color: lightgray;
+ }
+ 
+ #headingTwo {
+     background-color: lightgray;
+ }
+ 
+ #headingThree {
+     background-color: lightgray;
+ }
+ 
+ #headingFour {
+     background-color: lightgray;
+ }
+ 
+ #headingFive {
+     background-color: lightgray;
+ }
+ 
+ #headingSix {
+     background-color: lightgray;
+ }
+ 
+ #headingSeven {
+     background-color: lightgray;
+ }
+ 
+ #headingEigt {
+     background-color: lightgray;
+ }
+ 
+ #headingNine {
+     background-color: lightgray;
+ }
+ 
+ .talle {
+     width: 500px;
+ }
+ 
+ .preg-frec {
+     font-family: "Creepster", cursive;
+     font-size: x-large;
+     margin-top: 40px;
+     margin-left: 20px;
+     padding: 0px;
+     background-color: lightgray;
+ }
+ 
+ .color-preg {
+     background-color: lightgray;
+ }
+ /*# sourceMappingURL=estilo.css.map */

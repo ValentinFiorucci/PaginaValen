@@ -38,7 +38,6 @@
     display: grid;
     grid-template-areas: none;
     justify-content: center;
-    
 }
 
 .imagenesropa {
@@ -58,29 +57,30 @@
         justify-content: center;
     }
 }
-#estiloRemera{
+
+#estiloRemera {
     width: 320px;
 }
-#estiloPatineta{
-    
+
+#estiloPatineta {
     margin: 20px auto;
-    
     padding: 0px;
-  max-width: 100%;
-  width: 80px;
-    
+    max-width: 100%;
+    width: 80px;
 }
-#estiloPantalon{
-    
+
+#estiloPantalon {
     width: 180px;
 }
-#estiloPatineta-uno{
-    
+
+#estiloPatineta-uno {
     width: 100px;
 }
-#estiloBuzo{
+
+#estiloBuzo {
     width: 350px;
 }
+
 .consulta {
     font-family: $fuente;
     font-size: 130%;
@@ -166,37 +166,46 @@
 #bton-not {
     display: flex;
     justify-content: center;
-    margin-left: 45rem;
+    font-family: $fuente;
 }
-.altura{
+
+.altura {
     height: 100px;
 }
-.instagram{
+
+.instagram {
     height: 50px;
 }
-#accordionExample{
+
+#accordionExample {
     margin-top: 40px;
     font-family: $fuente;
+}
 
-}
-#headingOne{
-    background-color:lightgray;
-}
-#headingTwo{
+#headingOne {
     background-color: lightgray;
 }
-#headingThree{
+
+#headingTwo {
     background-color: lightgray;
 }
-#headingFour{
+
+#headingThree {
     background-color: lightgray;
 }
-#headingFive{
+
+#headingFour {
     background-color: lightgray;
 }
-#headingSix{
+
+#headingFive {
     background-color: lightgray;
 }
-.tamaño-patineta{
+
+#headingSix {
+    background-color: lightgray;
+}
+
+.tamaño-patineta {
     height: 300px;
 }
