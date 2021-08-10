@@ -31,10 +31,10 @@
  
  .footer .logos__redes {
      position: fixed;
-     width: 55px;
-     height: 55px;
-     line-height: 55px;
-     right: 10px;
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     right: 20px;
      bottom: 30px;
  }
  
@@ -229,8 +229,6 @@
      opacity: 0;
  }
  
- #carouselExampleControls {}
- 
  .carousel-inner {
      object-fit: cover;
  }
@@ -336,7 +334,7 @@
  }
  
  .talle {
-     width: 500px;
+     width: 450px;
  }
  
  .preg-frec {
