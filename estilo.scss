@@ -34,6 +34,15 @@
     grid-area: footer;
 }
 
+.footer .logos__redes {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    right: 20px;
+    bottom: 30px;
+}
+
 #posicion {
     display: grid;
     grid-template-areas: none;
@@ -181,7 +190,7 @@
 
 #accordionExample {
     margin-top: 40px;
-    font-family: "Creepster", cursive;
+    font-family: $fuente;
 }
 
 #headingOne {
@@ -220,6 +229,89 @@
     padding: 0px;
 }
 
-.color-preg {
-    background-color: lightgray;
+#nueva-Temporada {
+    font-family: $fuente;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.nueva-Temp {
+    font-family: $fuente;
+    display: flex;
+    justify-content: center;
+}
+
+#catalogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 2git a0px;
+}
+
+.contenedor {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    float: center;
+}
+
+.contenedor img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+    height: 400px;
+    width: 300px;
+}
+
+.contenedor img.top:hover {
+    opacity: 0;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    float: center;
+}
+
+.container img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+    height: 400px;
+    width: 300px;
+}
+
+.container img.top:hover {
+    opacity: 0;
+}
+
+#catalogo-dos {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.contenedors {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    float: center;
+}
+
+.contenedors img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+    height: 400px;
+    width: 300px;
+}
+
+.contenedors img.top:hover {
+    opacity: 0;
 }

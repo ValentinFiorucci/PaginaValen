@@ -68,6 +68,15 @@
     grid-area: footer;
 }
 
+.footer .logos__redes {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    right: 20px;
+    bottom: 30px;
+}
+
 #posicion {
     display: -ms-grid;
     display: grid;
@@ -307,11 +316,112 @@
     margin-top: 40px;
     margin-left: 20px;
     padding: 0px;
-    background-color: lightgray;
 }
 
-.color-preg {
-    background-color: lightgray;
+#nueva-Temporada {
+    font-family: "Creepster", cursive;
+    font-size: 150%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.nueva-Temp {
+    font-family: "Creepster", cursive;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#catalogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 2git a0px;
+}
+
+.contenedor {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    float: center;
+}
+
+.contenedor img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
+    height: 400px;
+    width: 300px;
+}
+
+.contenedor img.top:hover {
+    opacity: 0;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    float: center;
+}
+
+.container img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
+    height: 400px;
+    width: 300px;
+}
+
+.container img.top:hover {
+    opacity: 0;
+}
+
+#catalogo-dos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.contenedors {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    float: center;
+}
+
+.contenedors img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
+    height: 400px;
+    width: 300px;
+}
+
+.contenedors img.top:hover {
+    opacity: 0;
 }
 
 
