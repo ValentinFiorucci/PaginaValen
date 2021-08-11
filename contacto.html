@@ -34,7 +34,7 @@
                             <a class="nav-link" href="productos.html">Productos</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="nosotros.html">Información</a>
+                            <a class="nav-link" href="informacion.html">Información</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="contacto.html">Contacto</a>
@@ -43,54 +43,55 @@
                 </div>
             </nav>
         </div>
-    </header>
-    <div id="posicion">
+        <div id="posicion">
 
-        <a href="index.html"><img class="altura" src="media/valenlogo.png"> </a>
-    </div>
-    <div>
-        <h4 class="contacto"> <strong>Contacto</strong> </h4>
-    </div>
-    <div>
-        <p class="consulta">Envianos tu consulta por medio de nuestro.</p>
-        <p class="consulta">formulario de contacto seleccionando el destinatario deseado.</p>
-    </div>
-    <div id="formulario">
-        <form action="recibe.html" method="POST" enctype="multipart/form-data"> <select name="Asunto">
+            <a href="index.html"><img class="altura" src="media/valenlogo.png"> </a>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h4 class="contacto"> <strong>Contacto</strong> </h4>
+        </div>
+        <div>
+            <p class="consulta">Envianos tu consulta por medio de nuestro.</p>
+            <p class="consulta">formulario de contacto seleccionando el destinatario deseado.</p>
+        </div>
+        <div id="formulario">
+            <form action="recibe.html" method="POST" enctype="multipart/form-data"> <select name="Asunto">
                 <option value="a">Quejas-Reclamos-Sugerencias</option>
                 <option value="b">Venta Online-Consultas de Stock-Cambios</option>
                 <option value="c">Ventas Mayoristas-Franquicia</option>
                 <option value="c">Marketing</option>
             </select>
-        </form>
-    </div>
-    <div id="formulariodos">
-        <form action="recibe.html" method="POST" enctype="multipart/form-data">
-            <input type="nombre" type="text" placeholder="Nombre y Apellido">
-            <br>
-            <input type="email" name="email" placeholder="Ingresa tu email">
-            <br>
-            <textarea name="Mensaje" placeholder="Comentario"></textarea>
-            <div class="contenedorContacto__modal modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="modalNewsletterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">Mensaje enviado</h5>
+            </form>
+        </div>
+        <div id="formulariodos">
+            <form action="recibe.html" method="POST" enctype="multipart/form-data">
+                <input type="nombre" type="text" placeholder="Nombre y Apellido">
+                <br>
+                <input type="email" name="email" placeholder="Ingresa tu email">
+                <br>
+                <textarea name="Mensaje" placeholder="Comentario"></textarea>
+                <div class="contenedorContacto__modal modal fade" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="modalNewsletterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Mensaje enviado</h5>
+                            </div>
+                            <div class="modal-body">
+                                Te responderemos a la brevedad.
+                            </div>
+                            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button></div>
                         </div>
-                        <div class="modal-body">
-                            Te responderemos a la brevedad.
-                        </div>
-                        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button></div>
                     </div>
                 </div>
-            </div>
+            </form>
+        </div>
+        <form id="bton-not">
+            <button class="enviar" type="button" data-toggle="modal" data-target="#modalContacto">Enviar</button>
+
         </form>
-    </div>
-    <form id="bton-not">
-        <button class="enviar" type="button" data-toggle="modal" data-target="#modalContacto">Enviar</button>
-
-    </form>
-
+    </main>
     <footer class="footer">
         <div>
             <a class="logos__redes" href="https://www.instagram.com/valenbeda/"><img class="instagram" src="media/gratis-png-logo-de-instagram-logo-iconos-de-computadora-logo-de-instagram.png" alt="instagram"></a>
