@@ -60,17 +60,18 @@
 
 #estiloRemera {
     width: 320px;
+    margin: 50px;
 }
 
 #estiloPatineta {
-    margin: 20px auto;
+    margin: 160px;
     padding: 0px;
-    max-width: 100%;
     width: 80px;
 }
 
 #estiloPantalon {
-    width: 180px;
+    width: 150px;
+    margin: 125px;
 }
 
 #estiloPatineta-uno {
@@ -78,7 +79,8 @@
 }
 
 #estiloBuzo {
-    width: 350px;
+    width: 300px;
+    margin: 60px;
 }
 
 .consulta {
@@ -174,12 +176,12 @@
 }
 
 .instagram {
-    height: 50px;
+    height: 35px;
 }
 
 #accordionExample {
     margin-top: 40px;
-    font-family: $fuente;
+    font-family: "Creepster", cursive;
 }
 
 #headingOne {
@@ -206,6 +208,18 @@
     background-color: lightgray;
 }
 
-.tamaño-patineta {
-    height: 300px;
+.talle {
+    width: 450px;
+}
+
+.preg-frec {
+    font-family: $fuente;
+    font-size: x-large;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.color-preg {
+    background-color: lightgray;
 }
