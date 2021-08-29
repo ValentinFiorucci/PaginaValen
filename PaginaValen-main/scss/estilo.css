@@ -1,0 +1,526 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+.header__menu {
+  font-family: "Creepster", cursive;
+  font-size: x-large;
+  text-align: center;
+}
+
+.logos__redes {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  right: 30px;
+  bottom: 30px;
+}
+
+#posicion {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*Index*/
+.body {
+  background-color: black;
+  display: -ms-grid;
+  display: grid;
+}
+
+.bg-color {
+  background-color: black;
+}
+
+.header {
+  grid-area: header;
+}
+
+.nav-link:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#posicion {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img {
+  grid-area: img;
+}
+
+.img .img__background {
+  background: url("../media/fondo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imagenesropa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ScaleRopa1:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.ScaleRopa2:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.footer .logos__redes {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  right: 20px;
+  bottom: 30px;
+}
+
+.logos__redes:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.instagram {
+  height: 35px;
+}
+
+/*Catalogo*/
+#nueva-Temporada {
+  font-family: "Creepster", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+  color: grey;
+}
+
+.ntemp {
+  font-size: 3rem;
+}
+
+.nueva-Temp {
+  font-family: "Creepster", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1rem;
+}
+
+#catalogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  margin-right: 2git a0px;
+}
+
+#catalogo-dos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+}
+
+.contenedor {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  margin: 50px 20px;
+  float: center;
+}
+
+.contenedor img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+  height: 400px;
+  width: 300px;
+}
+
+.contenedor img.top:hover {
+  opacity: 0;
+}
+
+/*informacion*/
+.preg-frec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  font-family: "Creepster", cursive;
+  font-size: 3rem;
+  padding: 0px;
+  color: grey;
+}
+
+#accordionExample {
+  margin-top: 40px;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.card-body {
+  font-family: "Creepster", cursive;
+}
+
+#headingOne {
+  background-color: lightgray;
+}
+
+#headingTwo {
+  background-color: lightgray;
+}
+
+#headingThree {
+  background-color: lightgray;
+}
+
+#headingFour {
+  background-color: lightgray;
+}
+
+#headingFive {
+  background-color: lightgray;
+}
+
+#headingSix {
+  background-color: lightgray;
+}
+
+#headingSeven {
+  background-color: lightgray;
+}
+
+#headingEight {
+  background-color: lightgray;
+}
+
+#headingNine {
+  background-color: lightgray;
+}
+
+/*productos*/
+.imgproductos .imagenes__productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#estiloRemera {
+  width: 320px;
+  margin: 50px;
+}
+
+#estiloPatineta {
+  margin: 160px;
+  padding: 0px;
+  width: 80px;
+}
+
+#estiloPantalon {
+  width: 150px;
+  margin: 125px;
+}
+
+#estiloPatineta-uno {
+  width: 100px;
+}
+
+#estiloBuzo {
+  width: 300px;
+  margin: 60px;
+}
+
+#ropacenter {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+  padding: 60px;
+}
+
+#pantaloncenter {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px;
+      grid-template-columns: 250px;
+  -ms-grid-rows: 450px;
+      grid-template-rows: 450px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+}
+
+#patinetacenter {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px;
+      grid-template-columns: 250px;
+  -ms-grid-rows: 450px;
+      grid-template-rows: 450px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px;
+  padding-left: 110px;
+}
+
+.color {
+  background-color: black;
+}
+
+/*contacto*/
+.contacto {
+  font-family: "Creepster", cursive;
+  font-size: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10rem;
+  color: grey;
+}
+
+.consulta {
+  font-family: "Creepster", cursive;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#formulario {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 0,7rem;
+  padding-top: 5rem;
+}
+
+#formulariodos {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 0,7rem;
+}
+
+#fomulariotres {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-tamaño {
+  width: 400px;
+}
+
+#bton-not {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.enviar {
+  border: none;
+  background: grey;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Procutos Vender*/
+.altura {
+  height: 100px;
+}
+
+.talle {
+  width: 450px;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  margin: 50px 20px;
+  float: center;
+}
+
+.container img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+  height: 400px;
+  width: 300px;
+}
+
+.container img.top:hover {
+  opacity: 0;
+}
+
+.contenedors {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  margin: 50px 20px;
+  float: center;
+}
+
+.contenedors img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+  height: 400px;
+  width: 300px;
+}
+
+.contenedors img.top:hover {
+  opacity: 0;
+}
+
+#button-letra {
+  font-family: "Creepster", cursive;
+}
+
+.card-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 3rem;
+}
+
+.card-text {
+  font-family: "Creepster", cursive;
+  margin-top: 5px;
+  font-size: 35px;
+}
+
+.form-check-label {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.talle-Producto {
+  width: 100%;
+  height: 100%;
+}
+
+#descripcion-producto-dos {
+  font-size: 20px;
+}
+
+#descripcion-producto {
+  font-family: "Creepster", cursive;
+  font-size: 20px;
+}
+
+#imagenes-pants-vend {
+  width: 150px;
+  height: 300px;
+  margin-left: 93px;
+}
+
+#titulo-pants {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 50px;
+}
+
+#tablas-vender {
+  width: 100px;
+  height: 400px;
+  margin-left: 105px;
+}
+/*# sourceMappingURL=estilo.css.map */

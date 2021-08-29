@@ -1,0 +1,430 @@
+@import "fuente";
+@import "variable";
+@import "main";
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@media only screen and (min-width: 768px) {}
+
+
+
+/*Index*/
+
+.body {
+    background-color: $color;
+    display: grid;
+}
+
+.bg-color {
+    background-color: $color;
+}
+
+.header {
+    grid-area: header;
+}
+
+.nav-link:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    
+}
+
+#posicion {
+    display: grid;
+    grid-template-areas: none;
+    justify-content: center;
+}
+
+
+
+.img {
+    grid-area: img;
+    .img__background {
+        background: url("../media/fondo.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: grid;
+        grid-template-areas: none;
+        justify-content: center;
+    }
+}
+
+
+.imagenesropa {
+    display: flex;
+    justify-content: center;
+}
+
+.ScaleRopa1:hover {
+    transform: scale(0.9, 0.9);
+    transition: all 0.5s;
+}
+
+.ScaleRopa2:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 0.5s;
+}
+
+
+.footer {
+    grid-area: footer;
+}
+
+.footer .logos__redes {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    right: 20px;
+    bottom: 30px;
+}
+
+.logos__redes:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 0.5s;
+}
+
+.instagram {
+    height: 35px;
+}
+
+/*Catalogo*/
+
+
+#nueva-Temporada {
+    font-family: $fuente;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    color: grey;
+}
+
+.ntemp{
+    font-size: 3rem;
+}
+
+.nueva-Temp {
+    font-family: $fuente;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+#catalogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 2git a0px;
+}
+
+#catalogo-dos {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.contenedor {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    float: center;
+}
+
+.contenedor img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+    height: 400px;
+    width: 300px;
+}
+
+.contenedor img.top:hover {
+    opacity: 0;
+}
+
+/*informacion*/
+
+.preg-frec {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: $fuente;
+    font-size: 3rem;
+    padding: 0px;
+    color: grey;
+}
+
+#accordionExample {
+    margin-top: 40px;
+    font-family: $fuentedos;
+}
+
+.card-body {
+    font-family: $fuente;
+}
+
+#headingOne {
+    background-color: lightgray;
+}
+
+#headingTwo {
+    background-color: lightgray;
+}
+
+#headingThree {
+    background-color: lightgray;
+}
+
+#headingFour {
+    background-color: lightgray;
+}
+
+#headingFive {
+    background-color: lightgray;
+}
+
+#headingSix {
+    background-color: lightgray;
+}
+
+#headingSeven {
+    background-color: lightgray;
+}
+
+#headingEight {
+    background-color: lightgray;
+}
+
+#headingNine {
+    background-color: lightgray;
+}
+/*productos*/
+
+
+
+.imgproductos {
+    .imagenes__productos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+#estiloRemera {
+    width: 320px;
+    margin: 50px;
+}
+
+#estiloPatineta {
+    margin: 160px;
+    padding: 0px;
+    width: 80px;
+}
+
+#estiloPantalon {
+    width: 150px;
+    margin: 125px;
+}
+
+#estiloPatineta-uno {
+    width: 100px;
+}
+
+#estiloBuzo {
+    width: 300px;
+    margin: 60px;
+}
+
+
+#ropacenter {
+    display: grid;
+    justify-content: center;
+    margin: 40px;
+    padding: 60px;
+}
+
+#pantaloncenter {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 450px;
+    justify-content: center;
+    margin: 40px;
+}
+
+#patinetacenter {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 450px;
+    justify-content: center;
+    margin: 40px;
+    padding-left: 110px;
+}
+
+.color {
+    background-color: $color;
+}
+
+/*contacto*/
+.contacto {
+    font-family: $fuente;
+    font-size: 3rem;
+    justify-content: center;
+    display: flex;
+    margin-top: 10rem;
+    color: grey;
+}
+
+.consulta {
+    font-family: $fuente;
+    font-size: 1rem;
+    display:flex;
+    justify-content: center;
+}
+
+#formulario {
+    font-family: $fuentedos;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0,7rem;
+    padding-top: 5rem;
+}
+
+#formulariodos {
+    font-family: $fuentedos;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0,7rem;
+}
+
+#fomulariotres {
+    font-family: $fuentedos;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-tamaño{
+    width: 400px;
+}
+
+#bton-not {
+    display: flex;
+    justify-content: center;
+    font-family: $fuentedos;
+}
+
+.enviar{
+    border: none;
+    background: grey;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*Procutos Vender*/
+.altura {
+    height: 100px;
+}
+
+.talle {
+    width: 450px;
+}
+
+.container {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    float: center;
+}
+
+.container img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+    height: 400px;
+    width: 300px;
+}
+
+.container img.top:hover {
+    opacity: 0;
+}
+
+
+.contenedors {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    float: center;
+}
+
+.contenedors img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+    height: 400px;
+    width: 300px;
+}
+
+.contenedors img.top:hover {
+    opacity: 0;
+}
+
+#button-letra{
+    font-family: $fuente;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    font-family: $fuentedos;
+    font-size: 3rem;
+
+}
+
+.card-text{
+    font-family: $fuente;
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+.form-check-label{
+    font-family: $fuentedos;
+}
+
+.talle-Producto{
+    width: 100%;
+    height: 100%;
+}
+
+#descripcion-producto-dos{
+    font-size: 20px;
+}
+
+#descripcion-producto {
+    font-family: $fuente;
+    font-size: 20px;
+}
+
+#imagenes-pants-vend{
+
+    width: 150px;
+    height: 300px;
+    margin-left: 93px;
+
+}
+
+#titulo-pants{
+    font-family: $fuentedos;
+    font-size: 50px;
+}
+#tablas-vender{
+    width: 100px;
+    height: 400px;
+    margin-left: 105px;
+}

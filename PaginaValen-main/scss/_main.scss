@@ -1,0 +1,30 @@
+@mixin size-texto{
+font-family: $fuente;
+font-size: x-large;
+text-align: center;
+
+}
+.header__menu{
+@include size-texto();
+}
+@mixin Logo{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        right: 30px;
+        bottom: 30px;
+}
+.logos__redes {
+@include Logo();
+}
+@mixin Posicion{
+
+        display: grid;
+        grid-template-areas: none;
+        justify-content: center;
+        
+}
+#posicion{
+@include Posicion();
+}
